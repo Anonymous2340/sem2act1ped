@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 500px;
+    height: auto;
+    margin: 140px auto;
+    padding: 20px;
+}
+
+.content h1 {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.content .demo {
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+.content .demo #par {
+    font-size: 20px;
+    color: rgb(35, 34, 34);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.content #btn {
+    border: none;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 30px 160px;
+}
+
+.content #btn:hover {
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jay-r pedrajas">
+    <link rel="stylesheet" type="text/css" href="basics.css">
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Press button to change text...</h1>
+        <div class="demo">
+            <p id="par">
+                This paragraph will change...
+            </p>
+        </div>
+        <button type="button" id="btn" onclick="btnchange()">Click me!</button>
+    </div>
+</body>
+<script>
+    function btnchange() {
+        document.getElementById('par').innerHTML = "The paragraph is changed.";
+    }
+</script>
+</html>
